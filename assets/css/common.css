@@ -1,0 +1,276 @@
+
+:root {
+    --primary-color: #00408D; /* Example blue color */
+    /* --primary-gradient: linear-gradient(90deg, #0F94BD, #0A824C);  */
+    --yellow-color: #FFCC00; /* Example green color */
+    --red-color:  #FF0000;
+    --doubt-bg-color:#FFF0B5;
+    --light-orange:#FF9933; /* Light gray background */
+    --faq-bg-color:#E8F2FF;
+    --placement-bg:#F2F2F2;
+    --sky-button:#0CB1EF;
+    --text-white-color: #ffffff;
+    --text-dark-color: #333;
+    --footer-color:#2b2146; /* Dark gray for text */
+    --heading-color: #111111; /* Even darker for headings */
+    --button-color: #e74c3c; /* Red for buttons */
+    --button-hover-color: #c0392b; /* Darker red for hover */
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+ /* Global Styles */
+body, html {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+
+.container {
+  /* width: 100%; */
+  max-width: 1050px;
+  margin: auto;
+  padding: 0px 0px;
+}
+
+
+p {
+  margin: 0;
+}
+
+section {
+  margin: 30px 0px; padding: 10px 20px;
+}
+
+.popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+		z-index:9999;
+      }
+
+      .popup-content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        width: 30%!important;
+        max-width: 500px;
+        text-align: left;
+        position: relative;
+		  
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+a:hover{cursor:pointer;}
+button{cursor:pointer!important;}
+/* Form Styles */
+.required{color: red;}
+form h2{text-align:center; font-size:20px; color:var(--primary-color); margin:0;}
+form p{font-size:15px;}
+#form {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#form h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0; font-size: 20px;
+}
+
+#form p {
+  color: var(--heading-color);
+  text-align: center;
+}
+
+#form label {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 92%;
+  padding: 0.375rem 0.75rem;
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  margin: 10px 0px!important;
+  border: 1px solid #ccc!important;
+  background: none!important;
+  /* background-color: #e8e8e8; */
+  /* border: none; */
+  border-radius: 0.25rem;
+}
+
+select {
+  width: 100% !important;
+}
+
+.sub-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: none;
+  font-weight: 500; margin-top: 10px;
+}
+
+/* Footer Styles */
+/* .doubt {
+  background: var(--doubt-bg-color);
+} */
+
+.doubt-section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; align-items: center;
+}
+/* .doubt-section h2{font-size: 30px; margin: 10px;} */
+
+ /* .doubt-section button {
+  width: 300px;
+  margin: 20px;
+  padding: 10px 30px;
+  background-color: var(--sky-button);
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 60px;
+}  */
+
+#footer {
+  background: var(--footer-color);
+  color: #fff;
+  padding: 50px 20px;
+
+}
+#footer h2{font-size: 20px;}
+
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+#footer-bottom-bar {
+  text-align: center;
+  background: var(--footer-color);
+  padding: 10px; color: #fff!important;
+}
+
+.footer-column a{color:#fff;}
+
+
+/* .accordion {
+  max-width: 600px;
+  margin: 0 auto;
+} */
+.accordion-item {
+border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden; border: 1px solid #ccc; border-left: 5px solid var(--primary-color);
+}
+.accordion-header {
+  background-color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.accordion-header .span{float: right;}
+.accordion-header:hover {
+  background-color: #efefef
+}
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background-color: #fff; font-size: 13px!important;
+}
+
+
+/* Responsive Media Queries */
+
+/* For devices with a width of 1024px or less */
+@media (max-width: 1024px) {
+  .footer-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .doubt-section button {
+    width: 240px;
+  }
+}
+
+
+/* For devices with a width of 480px or less (mobile phones) */
+@media only screen and (max-width: 600px) {
+  #form h2 {
+    font-size: 1.2rem;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  .form-control {
+    font-size: 10px;
+  }
+
+  .sub-btn {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  #footer {
+    padding: 10px;
+  }
+
+  #footer-bottom-bar {
+    font-size: 0.8rem;
+  }
+	.footer-section{display:flex; flex-direction: column;}
+	
+	 .popup-content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        width: 70%!important;
+        max-width: 600px;
+        text-align: left;
+        position: relative;
+		  
+      }
+	.doubt-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+}
