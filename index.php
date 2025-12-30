@@ -56,7 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="course-container">
         <div class="course-card">
-            <div class="card-image" style="background-image: url('../assets/img/master-mba-ggu.webp');"></div>
+            <div class="card-image" style="background-image: url('assets/img/master-mba-ggu.webp');"></div>
             <div class="card-content">
                 <h3>Master of Business Administration (MBA)</h3>
                 <p class="description">A US-approved or practice-driven program that offers both from Golden Gate University MBA online. The course builds strong leadership skills, strategic thinking, and data-informed decision-making skills. The University faculty is from a San Francisco-based scholar-practitioner with years of experience.</p>
@@ -65,14 +65,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p><strong>Eligibility:</strong> Master's or Bachelor's Degree with 5+ years of experience.</p>
                 </div>
                 <div class="card-actions">
-                    <a href="#" class="btn outline downloadBrochureBtn">Get Broucher <span class="icon">↓</span></a>
+                    <button class="btn outline downloadBrochureBtn">Get Brochure <i class="fa fa-download"></i></button>
                     <a href="#" class="btn solid enquireNowBtn">Apply now</a>
                 </div>
             </div>
         </div>
 
         <div class="course-card">
-            <div class="card-image" style="background-image: url('../assets/img/doctorate-dba-ggu.webp');"></div>
+            <div class="card-image" style="background-image: url('assets/img/doctorate-dba-ggu.webp');"></div>
             <div class="card-content">
                 <h3>Doctor of Business Administration (DBA)</h3>
                 <p class="description">A degree that is flexible and recognised, the online DBA at Golden Gate University is an advanced doctoral program that is for senior-level leaders, consultants, and academics. The course focuses on research, problem-solving, and an original dissertation that talks about real-life business challenges.</p>
@@ -81,7 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p><strong>Eligibility:</strong> Recognised degree in Bachelor’s University</p>
                 </div>
                 <div class="card-actions">
-                    <a href="" class="btn outline downloadBrochureBtn">Get Broucher <span class="icon">↓</span></a>
+                    <button class="btn outline downloadBrochureBtn">Get Brochure <i class="fa fa-download"></i></button>
                     <a href="#" class="btn solid enquireNowBtn">Apply now</a>
                 </div>
             </div>
@@ -93,92 +93,193 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  
 
 <section id="courses">
-<div class="container">
-<center><h2>Online DBA Specialization at GGU </h2>
-<p class="sub-pp">(Doctorate of business administration)</p></center>
-<br>
-  
-<div class="course-info">
-   <div id="sliderA" class="owl-carousel">
-    <div class="slide">
-        <img src="assets/img/finance-ggu.webp" class="img-responsive">
-        <div class="multicolor-border"></div>
-        <div class="cr-info">
-        <h2>Online DBA in Finance</h2>
-		<p>Master advanced financial theory and quantitative analysis. Prepare for leadership roles in corporate finance, investment banking, and economic consulting.
-</p>
-        <hr>
-        <button class="enquireNowBtn">Apply Now</button>
+  <div class="container">
+
+    <center>
+      <h2>Online DBA Specialization at GGU</h2>
+      <p class="sub-pp">(Doctorate of business administration)</p>
+    </center>
+    <br>
+
+    <!-- TABS -->
+    <div class="course-tabs">
+      <button class="tab-btn active" data-tab="dba">DBA Specialization</button>
+      <button class="tab-btn" data-tab="mba">MBA Specialization</button>
+    </div>
+
+    <!-- ================= DBA TAB ================= -->
+    <div class="tab-content active" id="dba">
+      <div class="course-info">
+
+        <div id="sliderA" class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="assets/img/finance-ggu.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Online DBA in Finance</h2>
+                <p>Master advanced financial theory and quantitative analysis. Prepare for leadership roles in corporate finance, investment banking, and economic consulting.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/leadership-ggu.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Online DBA in Leadership</h2>
+                <p>Develop sophisticated strategies for leading organizational change. Enhance your ability to solve complex human capital and strategic management challenges.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/business-analytics-ggu.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Online DBA in Business Analytics</h2>
+                <p>Learn to transform big data into actionable business intelligence. Build expertise in predictive modeling, data mining, and data-driven decision-making.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/marketing-ggu.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Online DBA in Marketing</h2>
+                <p>Explore advanced research on consumer behavior and brand management strategies. Gain mastery in digital marketing analytics and global marketing campaign development.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/general-ggu.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Online DBA in General</h2>
+                <p>Pursue a broad, interdisciplinary approach to advanced business challenges. Customize your research to address complex issues across multiple business functions.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/generative-ai-ggu.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Online DBA in Generative AI</h2>
+                <p>Investigate the strategic implementation and ethical governance of AI in the business sector. Develop skills to lead innovation and leverage generative AI for competitive advantage.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+          </div>
         </div>
+
+      </div>
     </div>
 
-       <div class="slide">
-        <img src="assets/img/leadership-ggu.webp" class="img-responsive">
-        <div class="multicolor-border"></div>
-        <div class="cr-info">
-        <h2>Online DBA in Leadership</h2>
-		<p>Develop sophisticated strategies for leading organizational change. Enhance your ability to solve complex human capital and strategic management challenges.
-</p>
-        <hr>
-        <button class="enquireNowBtn">Apply Now</button>
+    <!-- ================= MBA TAB ================= -->
+    <div class="tab-content" id="mba">
+      <div class="course-info">
+
+        <div id="sliderB" class="swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="assets/img/business-analytics-concentration-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Business Analytics Concentration</h2>
+                <p>FocFocuses on enterprise performance management, business intelligence, web and social analytics, and data visualization for informed decision-making.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/industrial-organizational-psychology-concentration-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Industrial Organizational Psychology Concentration</h2>
+                <p>Covers organizational behavior, applied psychological research, and consulting skills to enhance leadership effectiveness.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/information-technology-management-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>IT Management</h2>
+                <p>Emphasizes digital transformation, IT management, data structures, and software engineering leadership, to align technology with business objectives.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/finance-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Finance</h2>
+                <p>Provides deep training in financial reporting, business valuation, financial modeling, and analytical frameworks essential for corporate finance and investment-driven leadership roles.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/marketing-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Marketing</h2>
+                <p>Centers on market research, digital marketing, integrated marketing communication, and e-commerce strategy to build data-driven, customer-focused marketing leadership skills.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/adaptive-leadership-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>Adaptive Leadership</h2>
+                <p>Develops capabilities in adaptive leadership, leading complex change, and personal leadership growth to manage uncertainty and transformation in modern organizations.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/general-ggu-mba.webp" class="img-responsive">
+              <div class="multicolor-border"></div>
+              <div class="cr-info">
+                <h2>General</h2>
+                <p>Allows students to select courses across multiple concentrations, creating a flexible MBA pathway aligned with individual career goals and professional specialization needs.</p>
+                <hr>
+                <button class="enquireNowBtn">Apply Now</button>
+              </div>
+            </div>
+
+          </div>
         </div>
+
+      </div>
     </div>
 
-    <div class="slide">
-        <img src="assets/img/business-analytics-ggu.webp" class="img-responsive">
-        <div class="multicolor-border"></div>
-        <div class="cr-info">
-        <h2>Online DBA in Business Analytics</h2>
-		<p>Learn to transform big data into actionable business intelligence. Build expertise in predictive modeling, data mining, and data-driven decision-making. </p>
-        <hr>
-        <button class="enquireNowBtn">Apply Now</button>
-        </div>
-    </div>
-
-     <div class="slide">
-        <img src="assets/img/marketing-ggu.webp"class="img-responsive">
-        <div class="multicolor-border"></div>
-        <div class="cr-info">
-        <h2>Online DBA in Marketing</h2>
-		<p>Explore advanced research on consumer behavior and brand management strategies. Gain mastery in digital marketing analytics and global marketing campaign development.
-
-</p>
-        <hr>
-        <button class="enquireNowBtn">Apply Now</button>
-        </div>
-    </div>
-
-     <div class="slide">
-        <img src="assets/img/general-ggu.webp" class="img-responsive">
-        <div class="multicolor-border"></div>
-        <div class="cr-info">
-        <h2>Online DBA in General </h2>
-		<p>Pursue a broad, interdisciplinary approach to advanced business challenges. Customize your research to address complex issues across multiple business functions.
-</p>
-        <hr>
-        <button class="enquireNowBtn">Apply Now</button>
-        </div>
-    </div>
-
-
-     <div class="slide">
-        <img src="assets/img/generative-ai-ggu.webp" class="img-responsive">
-        <div class="multicolor-border"></div>
-        <div class="cr-info">
-        <h2>Online DBA in Generative AI</h2>
-		<p>Investigate the strategic implementation and ethical governance of AI in the business sector. Develop skills to lead innovation and leverage generative AI for competitive advantage.
-</p>
-        <hr>
-        <button class="enquireNowBtn">Apply Now</button>
-        </div>
-    </div>
-
-
-  
-    </div>
-</div>
-</div>
+  </div>
 </section>
+
+
 
 
 
@@ -457,32 +558,8 @@ include __DIR__ . '/components/footer.php';
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
- <script>
-  $(function(){
-    if (!$.fn.owlCarousel) {
-      console.error('Owl Carousel not loaded. Check the script include order.');
-      return;
-    }
-
-    // Destroy if already initialized (safe re-init)
-    // if ($('#sliderA').hasClass('owl-loaded')) { $('#sliderA').trigger('destroy.owl.carousel'); }
-
-
-    // Slider A (different settings)
-    $('#sliderA').owlCarousel({
-      loop:true,
-      margin:20,
-      nav:false,
-      dots:true,
-      autoplay:true,
-      autoplayTimeout:2000,
-      responsive:{0:{ items:1 }, 600:{ items:1 }, 1000:{ items:1 }}
-    });
-
-   
-  });
-  </script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 <script>
@@ -695,3 +772,85 @@ window.addEventListener("pageshow", function () {
         });
     });
 </script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  let swiperA = null;
+  let swiperB = null;
+
+  const swiperConfig = {
+    loop: true,
+    spaceBetween: 20,
+    speed: 800,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 1,
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1200: { slidesPerView: 3 }
+    }
+  };
+
+  /* ===== INIT FUNCTIONS ===== */
+  function initSwiperA() {
+    swiperA = new Swiper('#sliderA', swiperConfig);
+  }
+
+  function initSwiperB() {
+    swiperB = new Swiper('#sliderB', swiperConfig);
+  }
+
+  function destroySwiperA() {
+    if (swiperA) {
+      swiperA.destroy(true, true);
+      swiperA = null;
+    }
+  }
+
+  function destroySwiperB() {
+    if (swiperB) {
+      swiperB.destroy(true, true);
+      swiperB = null;
+    }
+  }
+
+  /* ===== INIT FIRST TAB ===== */
+  initSwiperA();
+
+  /* ===== TAB CLICK ===== */
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', function () {
+
+      if (this.classList.contains('active')) return;
+
+      /* Buttons */
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      /* Content */
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      document.getElementById(this.dataset.tab).classList.add('active');
+
+      /* 🔥 DESTROY + REINIT (KEY FIX) */
+      setTimeout(() => {
+
+        if (this.dataset.tab === 'dba') {
+          destroySwiperB();
+          initSwiperA();
+        } else {
+          destroySwiperA();
+          initSwiperB();
+        }
+
+      }, 100);
+    });
+  });
+
+});
+</script>
+
+

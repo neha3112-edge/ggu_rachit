@@ -28,7 +28,7 @@ body {
 	background-color: #000;
 }
 .multicolor-border {
-  height: 8px;
+  height: 4px;
   background: linear-gradient(
     to right,
     #d77a85 25%,  
@@ -258,7 +258,6 @@ padding: 20px; border-radius: 5px;
 
 .course-info {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
 }
 .cr-info{padding: 20px 20px; background-color: #F2F2F2;}
@@ -819,5 +818,62 @@ padding: 20px; border-radius: 5px;
 
     .card-content {
 	padding: 20px;
+}
+}
+
+
+
+
+.course-tabs {
+	text-align: center;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tab-btn {
+  background: #f2f2f2;
+  border: none;
+  padding: 10px 25px;
+  margin: 0 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tab-btn.active {
+  background: var(--light-orange);
+  color: #fff;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+
+
+.btn.outline.downloadBrochureBtn i {
+	font-size: 14px !important;
+	color: #000;
+}
+
+@media only screen and (max-width:768px){
+	.card-image {
+	height: 145px;
 }
 }

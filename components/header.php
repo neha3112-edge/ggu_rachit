@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="assets/img/GGU_Favicon.png"/>
-    <title>Online DBA Course at Golden Gate University | Doctorate in Business Administration  </title>
-    <meta decription="Online DBA Course at Golden Gate University | Doctorate in Business Administration. Find Online Course Fees, Eligibility and Admission Details 2025">
+    <title>Golden Gate University MBA & DBA Online | GGU Admissions  </title>
+    <meta decription="Enroll in GGU’s Online DBA in Generative AI or Business. WASC accredited executive DBA for leaders. 36-month flexible course with original dissertation.">
     <meta keyword="">
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 
     <script type="text/javascript" src="assets/js/script.js"></script>

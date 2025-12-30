@@ -26,14 +26,22 @@
 
         <select name="course" class="form-control" id="courseSelect" required>
             <option value="" selected disabled>Select Your Course</option>
-			<option value="DBA">Finance</option>
-            <option value="DBA">Leadership</option>
-            <option value="DBA">Business Analytics</option>
-            <option value="DBA">Marketing</option>
-            <option value="DBA">General</option>
-            <option value="DBA">Generative AI</option>
-         
+            <option value="DBA in Finance">DBA in Finance</option>
+            <option value="DBA in Marketing">DBA in Marketing</option>
+            <option value="DBA in Leadership">DBA in Leadership</option>
+            <option value="DBA in General">DBA in General</option>
+            <option value="DBA in Business Analytics">DBA in Business Analytics</option>
+            <option value="DBA in Generative AI">DBA in Generative AI</option>
+            <option value="MBA in Business Analytics Concentration">MBA in Business Analytics Concentration</option>
+            <option value="MBA in Industrial Organizational Psychology Concentration">MBA in Industrial Organizational Psychology Concentration</option>
+            <option value="MBA in Information Technology Management">MBA in Information Technology Management</option>
+            <option value="MBA in Finance">MBA in Finance</option>
+            <option value="MBA in Marketing">MBA in Marketing</option>
+            <option value="MBA in Adaptive Leadership">MBA in Adaptive Leadership</option>
+            <option value="MBA in General">MBA in General</option>
         </select>
+
+
         <!-- <label>State <span class="required">*</span></label> -->
         <select name="state" class="form-control" id="state" required>
             <option value="" hidden>Select Your State</option>
