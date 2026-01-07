@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="main-courses" class="courses-section">
     <div class="header">
         <h2>COURSES OFFERED</h2>
-        <p>By Golden Gate University, Paris </p>
+        <p>By Golden Gate University </p>
     </div>
 
     <div class="course-container">
@@ -327,27 +327,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="b1">
         <img src="assets/img/wasc.webp">
         <h3>WASC</h3>
-        <p>GGU is accredited by WASC, which also accredits top universities such as Stanford and UC Berkeley, ensuring high educational standards</p>
     </div>
 
     <div class="b1">
          <img src="assets/img/association-of-american.webp">
-         <h3>WES Accreditation</h3>
-        <p>WES Accreditation is one of the most widely accepted and respected forms of recognition for a degree</p>
+         <h3>AALS</h3>
     </div>
 
 
     <div class="b1">
        <img src="assets/img/state-bar-of-california.webp">
         <h3>The State Bar of California</h3>
-        <p>The State Bar of California is the premier legal licensing and regulatory authority for the nation's largest legal profession.</p>
     </div>
 
 
     <div class="b1">
         <img src="assets/img/aacsb.webp">
         <h3>AACSB</h3>
-        <p>AACSB is renowned as one of the oldest standard setting bodies for business education worldwide</p>
     </div>
 </div>
 
