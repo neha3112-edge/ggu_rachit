@@ -1,0 +1,18 @@
+
+============================
+Date: 2026-01-08 08:03:08
+Request URL: https://api.crm.mysode.com/api/lead/apicreated
+HTTP Code: 400
+Payload:
+{"full_name":"Main","name":"Main","email":"test@gmail.com","phone":"+916565656565","course":"MBA in Industrial Organizational Psychology Concentration","state":"Jharkhand","source":"GGU LP","sub_source":"","utm_source":"","utm_campaign":"","utm_medium":"","utm_term":"","page_url":"http:\/\/localhost\/ggu\/"}
+Response:
+{"success":false,"message":"Invalid course provided. Lead creation failed.","error":{"providedCourse":"MBA in Industrial Organizational Psychology Concentration"}}
+
+============================
+Date: 2026-01-08 08:09:12
+Request URL: https://api.crm.mysode.com/api/lead/apicreated
+HTTP Code: 200
+Payload:
+{"full_name":"Final Testing","name":"Final Testing","email":"test@gmail.com","phone":"+919873088907","course":"DBA","state":"Maharashtra","source":"GGU LP","sub_source":"","utm_source":"","utm_campaign":"","utm_medium":"","utm_term":"","page_url":"http:\/\/localhost\/ggu\/"}
+Response:
+{"success":true,"result":[{"removed":false,"enabled":true,"name":"Final Testing","subcourse":null,"isunmask":{"email":false,"phone":false},"lead_active":false,"reEnquiredDate":null,"admissionDate":null,"stage":"66cd6c9ff73e74da7ae0dbea","reasons":"66e9734308d913ace840a240","subReasons":null,"source":"68f0b51bac1a3560267b2be5","sourceUpdate":[{"sources":"GGU LP","addedAt":"2026-01-08T07:09:12.242Z","_id":"695f581800d454d6c33665de"}],"course":"68d266c75061127d40afeb71","email":"test@gmail.com","score":0,"phone":"+91-9873088907","utm_source":"","utm_adgroup":null,"utm_content":null,"dob":null,"utm_campaign":"","utm_medium":"","utm_term":"","state":"66e406e1a507353022672d3f","form_name":null,"note":null,"page_url":"http://localhost/ggu/","workspace":{"_id":"67b483d5ab72f95cd49590e8","name":"Upgrad"},"priority":"medium","counsellors":"68f095806edd4ade77475bcd","universityId":[],"budget":{"min":0,"max":0},"communicationMode":"call","leadRating":null,"eligible":null,"communicationNotes":null,"_id":"695f581800d454d6c33665dd","utm_sourcehistory":[],"universityStatuses":[{"university":"upgrade","status":"success","message":"Lead created successfully","workspaceName":"Upgrad"}],"stage_journey":[],"__v":0,"createdAt":"2026-01-08T07:09:12.243Z","updatedAt":"2026-01-08T07:09:12.243Z"}],"message":"Successfully created 1 lead(s) distributed as follows: 1 lead(s) in Upgrad"}
