@@ -108,60 +108,6 @@ if ($http_code !== 200 && $http_code !== 201) {
 }
 
 
-
-
-
-/* ===============================
-   4. SEND TO GOOGLE SHEET (JSON – FIXED)
-================================ */
-$sheet_url = 'https://script.google.com/macros/s/AKfycbzSOEabwc16HTdMnfxdxFuOoEouHyLDSNwId7rRh6MoGdW4Wm29crpXOgdqOeSw3xZy/exec';
-
-$sheet_data = [
-    'full_name'    => $full_name,
-    'email'        => $email,
-    'phone'        => $phone,
-    'course'       => $course,
-    'state'        => $state,
-    'source'       => $source,
-    // 'sub_source'   => $sub_source,
-    // 'utm_source'   => $utm_source,
-    // 'utm_campaign' => $utm_campaign,
-    // 'utm_medium'   => $utm_medium,
-    // 'utm_term'     => $utm_term,
-    'page_url'     => $page_url,
-    'website'      => 'GGU_LP' // 👈 TAB NAME IN GOOGLE SHEET
-];
-
-$ch = curl_init();
-curl_setopt_array($ch, [
-    CURLOPT_URL => $sheet_url,
-    CURLOPT_POST => true,
-    CURLOPT_POSTFIELDS => json_encode($sheet_data),
-    CURLOPT_HTTPHEADER => [
-        "Content-Type: application/json"
-    ],
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_TIMEOUT => 10
-]);
-curl_exec($ch);
-curl_close($ch);
-
-/* ===============================
-   5. SEND TO PABBLY
-================================ */
-$pabbly_url = 'https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTZhMDYzNDA0MzI1MjY4NTUzMzUxMzAi_pc';
-
-$ch = curl_init();
-curl_setopt_array($ch, [
-    CURLOPT_URL => $pabbly_url,
-    CURLOPT_POST => true,
-    CURLOPT_POSTFIELDS => http_build_query($lead_data),
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_TIMEOUT => 10
-]);
-curl_exec($ch);
-curl_close($ch);
-
 /* ===============================
    6. REDIRECT USER
 ================================ */
